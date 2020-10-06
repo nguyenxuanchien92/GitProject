@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+
+}
+
+form {
+    display: inline-block;
+}
+
+table, td, tr {
+    border: 1px solid black;
+    width: 100%;
+}
+
+td, tr {
+    width: 500px;
+    height: 50px;
+}
+
+.header {
+    font-size: 30px;
+    background: #d6511f;
+    color: #dddddd;
+}
+
+#inputName {
+    width: 75%;
+    height: 25px;
+}
+
+#inputMail {
+    width: 55%;
+    height: 25px;
+}
+
+#tdName, #tdMail {
+    text-align: start;
+    padding-left: 10px;
+}
+
+h3{
+    color: blue;
+    text-align: right;
+}
+
+#btReset,#btSubmit{
+    font-size: larger;
+}
+
+#tdButton{
+    text-align: start;
+}
+
+#listCheckBox{
+    width: 20%;
+    height: 70%;
+}

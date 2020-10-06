@@ -4,58 +4,15 @@
     <meta charset="UTF-8">
     <title>User Information</title>
 </head>
-<style>
-    body {
-        text-align: center;
-    }
+<link rel="stylesheet" href="css/home.css"/>
 
-    form {
-        display: inline-block;
-    }
-
-    table, td, tr {
-        border: 1px solid black;
-    }
-
-    td, tr {
-        width: 500px;
-        height: 50px;
-    }
-
-    .header {
-        font-size: 30px;
-        background: #d6511f;
-        color: #dddddd;
-    }
-
-    #inputName {
-        width: 75%;
-        height: 25px;
-    }
-
-    #inputMail {
-        width: 55%;
-        height: 25px;
-    }
-
-    #tdName, #tdMail {
-        text-align: start;
-        padding-left: 10px;
-    }
-
-    #btReset,#btSubmit{
-        font-size: larger;
-    }
-
-    #tdButton{
-        text-align: start;
-    }
-</style>
+</link>
 <body>
 <form action="">
     <table>
         <tr >
-            <td colspan="3" class="header">SỞ THÍCH CỦA BẠN</td>
+            <td colspan="5" class="header">SỞ THÍCH CỦA BẠN</td>
+<!--          phải sửa lại 5 cột 7 hàng -->
         </tr>
         <tr>
             <td>
@@ -74,17 +31,34 @@
             </td>
         </tr>
         <tr>
-            <td rowspan="3">
-                <h3>Sở thích</h3>
+            <td rowspan="4">
+                <h3 style="margin-top:-90px">Sở thích</h3>
             </td>
-            <td colspan="2" rowspan="3">List check box</td>
+            <td colspan="2" rowspan="3" id="listCheckBox">
+                <table>
+                    <tr>
+                        <td><input type="checkbox">Thể Thao</td>
+                        <td><input type="checkbox">Âm nhạc</td>
+                        <td><input type="checkbox">Đọc sách</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">Chơi game</td>
+                        <td><input type="checkbox">Điện ảnh</td>
+                        <td><input type="checkbox">Du lịch</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">Lướt web</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
         </tr>
         <tr>
         </tr>
         <tr>
         </tr>
         <tr>
-            <td colspan="1"></td>
             <td id="tdButton" colspan="2">
                 <button type="submit" id="btSubmit">Gửi thông tin</button>
                 <button type="reset" id="btReset">Nhập lại</button>
