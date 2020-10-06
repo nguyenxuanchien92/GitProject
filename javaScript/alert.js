@@ -1,8 +1,9 @@
-let evClick = document.getElementById("btClickMe");
+let evtClick = document.getElementById("btClickMe");
 
 function displayMess() {
     alert("Xin Chào");
 }
 
-evClick.addEventListener('click',displayMess);
+evtClick.addEventListener('click',displayMess);
 // evClick.addEventListener("click",alert("Xin chào"));
+
