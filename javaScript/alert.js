@@ -1,7 +1,8 @@
 let evClick = document.getElementById("btClickMe");
 
-function  showMess() {
-    return alert("Xin Chào");
+function displayMess() {
+    alert("Xin Chào");
 }
 
-evClick.click(this,showMess());
+evClick.addEventListener('click',displayMess);
+// evClick.addEventListener("click",alert("Xin chào"));
